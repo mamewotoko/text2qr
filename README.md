@@ -5,7 +5,7 @@ Convert text into QR code
 Build
 -----
 ```bash
-./gradlew build
+./gradlew fatJar
 ```
 
 Run
