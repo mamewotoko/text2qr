@@ -2,4 +2,6 @@
 # $1: text
 # $2: output filename
 
-java -jar build/libs/text2qr-all.jar "$1" "$2"
+MYDIR=$(realpath $(dirname "$0"))
+
+java -jar $MYDIR/../build/libs/text2qr-all.jar "$1" "$2"
